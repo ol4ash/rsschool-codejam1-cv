@@ -1,0 +1,56 @@
+body {
+	background-color: grey;
+}
+
+.box {
+  max-width: 1024px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+ }
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index:10;
+  background-color: red;
+}
+
+#volha {
+  background-position: center;
+  width: 100%;
+}
+
+header div {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+h1 {
+  position: relative;
+  font-size: 3vw;
+}
+
+header div p{
+  font-size: 3vw;
+}
+
+nav ul {
+  margin: 7px auto;
+  padding: 0 20px;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  width: 55px;
+  
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+
