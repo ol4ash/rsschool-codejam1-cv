@@ -1,13 +1,17 @@
 body {
-	background-color: grey;
+	background-color: rgb(233,229,232);
+	font-family: 'Space Mono';
 }
 
 .box {
+  box-shadow: 3px 5px 20px #b6b0b4;
+
   max-width: 1024px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
   position:relative;
+
  }
 
 nav {
@@ -30,11 +34,12 @@ header div {
 
 h1 {
   position: relative;
-  font-size: 3vw;
+  font-size: 7vw;
+  text-transform: uppercase;
 }
 
 header div p{
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 nav ul {
@@ -52,5 +57,28 @@ nav li {
 li:hover {
   color: #DBE9EE;
 }
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+hr {
+	width: 92%;
+	height: 1.5px;
+margin-left: auto;
+margin-right: auto;
+background-color:red;
+border: 0 none;
+margin-top:5px;
+margin-bottom:30px;
+	}
+
+div {
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 20pt;
+}
+
 
 
